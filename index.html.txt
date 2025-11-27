@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Professores - Homenagem 9º Ano</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>?? Homenagem aos Nossos Professores ??</h1>
+    <p>Escolha um professor abaixo e conheça a página criada por nossos alunos!</p>
+  </header>
+
+  <main>
+    <section class="professores-grid">
+      <a href="professores/prof1.html" class="card">Profa. Ana Lima</a>
+      <a href="professores/prof2.html" class="card">Prof. Carlos Mendes</a>
+      <a href="professores/prof3.html" class="card">Profa. Júlia Martins</a>
+      <a href="professores/prof4.html" class="card">Prof. Roberto Alves</a>
+      <a href="professores/prof5.html" class="card">Profa. Bianca Torres</a>
+      <a href="professores/prof6.html" class="card">Prof. Felipe Souza</a>
+      <a href="professores/prof7.html" class="card">Profa. Camila Reis</a>
+      <a href="professores/prof8.html" class="card">Prof. Marcos Tavares</a>
+      <a href="professores/prof9.html" class="card">Profa. Elisa Rocha</a>
+      <a href="professores/prof10.html" class="card">Prof. André Gomes</a>
+      <a href="professores/prof11.html" class="card">Profa. Luana Barros</a>
+      <a href="professores/prof12.html" class="card">Prof. Daniel Ribeiro</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com ?? e gratidão pelos alunos do 9º ano | 2025</p>
+  </footer>
+</body>
+</html>

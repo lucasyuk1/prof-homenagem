@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #f5f7fa, #c3cfe2);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #4a69bd;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.professores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #4a69bd;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #4a69bd;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: #4a69bd;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}

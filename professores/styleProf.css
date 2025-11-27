@@ -1,0 +1,60 @@
+body {
+font-family: 'Poppins', sans-serif;
+margin: 0;
+background-color: #f5f5f5;
+color: #333;
+}
+header {
+background-color: #2563eb;
+color: white;
+padding: 15px 0;
+text-align: center;
+}
+nav a {
+color: white;
+margin: 0 10px;
+text-decoration: none;
+font-weight: bold;
+}
+.hero {
+text-align: center;
+padding: 40px;
+background: linear-gradient(180deg, #dbeafe, #fff);
+}
+.hero img {
+border-radius: 50%;
+width: 180px;
+}
+.hero h2 {
+margin-top: 15px;
+}
+.botao {
+display: inline-block;
+margin-top: 15px;
+padding: 10px 20px;
+background-color: #3b82f6;
+color: white;
+border-radius: 8px;
+text-decoration: none;
+}
+section {
+padding: 30px;
+text-align: center;
+}
+.galeria .fotos {
+display: flex;
+justify-content: center;
+gap: 15px;
+flex-wrap: wrap;
+}
+.galeria img {
+border-radius: 10px;
+width: 150px;
+box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+footer {
+background-color: #e5e7eb;
+padding: 10px;
+font-size: 0.9em;
+text-align: center;
+}
