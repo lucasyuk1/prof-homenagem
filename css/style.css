@@ -68,7 +68,13 @@ footer {
   font-size: 1.2rem;
   box-shadow: 0 5px 12px rgba(0,0,0,0.2);
   transition: 0.3s ease;
+
+  /* >>> ADIÇÕES PARA CENTRALIZAR ABAIXO DOS OUTROS <<< */
+  grid-column: 1 / -1;
+  margin: 20px auto;
+  width: 260px;
 }
+
 
 /* HOVER — efeito elegante */
 #diretiva:hover {
