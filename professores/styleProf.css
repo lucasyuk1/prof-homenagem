@@ -114,19 +114,19 @@ footer {
 }
 .btn-voltar {
   display: inline-block;
-  margin: 25px auto;
-  padding: 12px 24px;
-  background-color: #2563eb;
+  margin: 20px auto;
+  padding: 12px 28px;
+  background-color: #2563eb; /* azul mais vibrante */
   color: white;
   font-weight: 600;
   border-radius: 10px;
   text-decoration: none;
-  transition: 0.3s ease;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.25s ease;
 }
 
 .btn-voltar:hover {
-  background-color: #1d4ed8;
+  background-color: #1d4ed8; /* azul mais escuro no hover */
   transform: translateY(-2px);
-  box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
