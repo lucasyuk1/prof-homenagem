@@ -55,3 +55,24 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+/* CARD ESPECIAL DA EQUIPE DIRETIVA */
+#diretiva {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: white;
+  font-weight: 600;
+  padding: 25px;
+  border-radius: 14px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+  transition: 0.3s ease;
+}
+
+/* HOVER — efeito elegante */
+#diretiva:hover {
+  background: linear-gradient(135deg, #1e40af, #2563eb);
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
