@@ -1,0 +1,206 @@
+/* ----- CONFIGURAÇÃO GERAL ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background: #f4f5fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ----- CABEÇALHO ----- */
+header {
+  background: linear-gradient(135deg, #5d54e6, #8f82ff);
+  color: #fff;
+  padding: 25px 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+header nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  opacity: 0.7;
+}
+
+.btn-voltar {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background: #ffffff33;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-voltar:hover {
+  background: #ffffff55;
+}
+
+/* ----- HERO ----- */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 18px;
+  box-shadow: 0px 6px 20px #0002;
+}
+
+.hero h2 {
+  margin-top: 20px;
+  font-size: 1.7rem;
+  color: #444;
+}
+
+/* ----- SEÇÃO EQUIPE ----- */
+.sobre {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #5d54e6;
+}
+
+.sobre p {
+  margin-bottom: 35px;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Cards da equipe */
+.card-membro {
+  background: #fff;
+  width: 90%;
+  max-width: 420px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0px 4px 15px #0001;
+  transition: 0.3s;
+}
+
+.card-membro:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 20px #0002;
+}
+
+.card-membro img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 4px 12px #0002;
+  margin-bottom: 15px;
+}
+
+.card-membro h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-membro .info {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* ----- MENSAGENS ----- */
+.galeria {
+  padding: 50px 20px;
+  text-align: center;
+  background: #fafaff;
+}
+
+.galeria h2 {
+  font-size: 2rem;
+  color: #5d54e6;
+  margin-bottom: 15px;
+}
+
+.mensagens-area {
+  margin: 0 auto;
+  max-width: 700px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px #0001;
+  text-align: left;
+}
+
+.mensagens-area p {
+  color: #555;
+  font-size: 1.05rem;
+}
+
+/* ----- FOTOS ----- */
+.fotos {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+
+.fotos img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0px 4px 15px #0002;
+  transition: 0.3s;
+}
+
+.fotos img:hover {
+  transform: scale(1.03);
+}
+
+/* ----- RODAPÉ ----- */
+footer {
+  background: #5d54e6;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 500;
+  border-radius: 20px 20px 0 0;
+}
+
+/* ----- RESPONSIVIDADE ----- */
+@media (min-width: 768px) {
+  .card-membro {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+}
