@@ -204,3 +204,39 @@ footer {
     font-size: 2rem;
   }
 }
+
+/* ----- MENSAGENS DOS ALUNOS – ESTILO DESTAQUE ----- */
+
+.mensagens-area {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Cada mensagem vira um card */
+.mensagens-area p {
+  background: #ffffff;
+  padding: 20px 25px;
+  border-left: 8px solid #5d54e6; /* cor destaque */
+  border-radius: 12px;
+  box-shadow: 0px 4px 14px #0001;
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.6;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efeito no hover */
+.mensagens-area p:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 20px #0002;
+}
+
+/* Se quiser personalizar o nome no começo da mensagem */
+.mensagens-area p::first-line {
+  font-weight: 700;
+  color: #5d54e6;
+}
