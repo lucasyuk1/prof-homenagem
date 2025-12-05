@@ -198,13 +198,6 @@ header nav a:hover {
   filter: blur(1px);
 }
 
-/* Nome em destaque */
-.mensagens-area p::first-line {
-  font-weight: 700;
-  font-size: 1.15rem;
-  color: #5d54e6;
-}
-
 /* Efeito de hover */
 .mensagens-area p:hover {
   transform: translateY(-6px);
